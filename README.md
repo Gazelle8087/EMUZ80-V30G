@@ -16,6 +16,7 @@ https://vintagechips.wordpress.com/2020/12/27/sbcv20_software/
 元のファームウエア同様
 リセットにてUniversal monitor が立ち上がり、
 Bコマンドにて Nascom Basic 起動となります。
+
 V20用ソース emuz80-V20G.c
 V30用ソース emuz80-V30G.c
 
