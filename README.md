@@ -5,6 +5,8 @@
 アドレス値をPICから供給されるクロックを一時停止して
 取得する方法を模索したファームウエアです。
 
+奥江さんのEMUZ80-V20はこちらです
+https://github.com/satoshiokue/EMUZ80-V20
 
 元のファームウエア同様
 リセットにてUniversal monitor が立ち上がり、
