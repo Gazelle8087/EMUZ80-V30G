@@ -16,7 +16,8 @@ https://vintagechips.wordpress.com/2020/12/27/sbcv20_software/
 元のファームウエア同様
 リセットにてUniversal monitor が立ち上がり、
 Bコマンドにて Nascom Basic 起動となります。
-現在のところPIC18F47Q84 + V30 8MHz限定です。
+V20用ソース emuz80-V20G.c
+V30用ソース emuz80-V30G.c
 
 ソース中 #define emulation8080 を有効にすると
 8086basicに代わって 8080エミュレーションモードを
