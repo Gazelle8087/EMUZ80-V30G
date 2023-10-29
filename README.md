@@ -7,6 +7,7 @@
 
 奥江さんのEMUZ80-V20はこちらです
 https://github.com/satoshiokue/EMUZ80-V20
+
 電脳伝説さんのSBCV20はこちらです
 https://vintagechips.wordpress.com/2020/12/27/sbcv20_software/
 
