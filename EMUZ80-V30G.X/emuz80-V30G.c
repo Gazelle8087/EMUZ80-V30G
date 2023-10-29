@@ -223,7 +223,7 @@
 #define RAM_SIZE 0x2000 //8K bytes
 #endif
 
-//#define emulation8080			// for V30
+#define emulation8080			// for V30
 #define UART_DREG 0x0000		// Data REG
 #define UART_CREG 0x0001		// Control REG
 
@@ -513,9 +513,9 @@ void main(void) {
 		"tblrd  *+				\n" // TABLAT = ROM(TBLPTR),TBLPTR++
 		"movff  TABLAT,LATC		\n" // PORTB = TABLAT
 		"tblrd  *				\n" // TABLAT = ROM(TBLPTR)
-		"bsf	LATA,4,c		\n" // READY = H
-		"movff  TABLAT,LATD		\n" // PORTB = TABLAT
 //		"bsf	LATA,4,c		\n" // READY = H
+		"movff  TABLAT,LATD		\n" // PORTB = TABLAT
+		"bsf	LATA,4,c		\n" // READY = H
 		"bra	after_RD		\n"	// jmp to post process
 //		"bra	after_RD2		\n"	// jmp to quick post process(trial)
 		);
@@ -528,9 +528,9 @@ void main(void) {
 		"movwf  FSR0H,c			\n" // FSR0H = W
 		"movff  indf0,LATC		\n" // PORTD = RAM(FSR0H,FSR0L)
 		"bsf	FSR0L,0,c		\n"	// FSR0L |= 0x0001;
-		"bsf	LATA,4,c		\n" // READY = H
-		"movff  indf0,LATD		\n" // PORTD = RAM(FSR0H,FSR0L)
 //		"bsf	LATA,4,c		\n" // READY = H
+		"movff  indf0,LATD		\n" // PORTD = RAM(FSR0H,FSR0L)
+		"bsf	LATA,4,c		\n" // READY = H
 		"bra	after_RD		\n"	// jmp to post process
 //		"bra	after_RD2		\n"	// jmp to quick post process(trial)
 		);
