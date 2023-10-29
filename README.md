@@ -18,6 +18,7 @@ https://vintagechips.wordpress.com/2020/12/27/sbcv20_software/
 Bコマンドにて Nascom Basic 起動となります。
 
 V20用ソース emuz80-V20G.c
+
 V30用ソース emuz80-V30G.c
 
 ソース中 #define emulation8080 を有効にすると
