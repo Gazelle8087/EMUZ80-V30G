@@ -33,3 +33,4 @@ V20BASICの起動はmonitorから g0:814b と入力ください。
 
 EMUZ80+MEZV20と全く同じ回路の1枚基板の回路図と基板設計データもここに置きます。
 EMUV30_1103.zip でそのまま基板メーカーに発注できます。JLCPCBで実績ありです。
+![DSC_0210](https://github.com/Gazelle8087/EMUZ80-V30G/assets/148423174/a4835a3f-18fd-4da1-a3cf-35c56b1e8c0b)
