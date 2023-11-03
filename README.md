@@ -28,3 +28,6 @@ V20BASICの起動はmonitorから g0:814b と入力ください。
 
 ![v30_chart](https://github.com/Gazelle8087/EMUZ80-V30G/assets/148423174/df5f935c-bb4b-45b3-a1ef-f7e2c9843aa0)
 ![ALE_CLOCK_STOP](https://github.com/Gazelle8087/EMUZ80-V30G/assets/148423174/3478d1fb-3a6a-4b35-9ffa-09ba50ee4e11)
+
+EMUZ80+MEZV20と全く同じ回路の1枚基板の回路図と基板設計データもここに置きます。
+EMUV30_1103.zip でそのまま基板メーカーに発注できます。JLCPCBで実績ありです。
